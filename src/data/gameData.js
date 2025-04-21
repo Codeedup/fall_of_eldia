@@ -45,7 +45,7 @@ const gameData = {
                 
                 "scene2": {
                     title: "The Silver Fox",
-                    text: "Soft earth muffles your steps as you follow the silver-furred fox down the left-hand trail. Pale sparks pop from its tail with each bound, briefly illuminating runes carved into trunks you pass. After several twisting minutes, the fox slips into a moonlit glade ringed by towering red-cap mushrooms. At its center rises an ancient stone pedestal holding a luminous acorn that pulses like a slow heartbeat. With a shimmer, the fox stretches into the shape of a diminutive sprite—amber-eyed, cloaked in leaves. In a lilting voice it speaks: 'The Elderwood wilts. This Heartseed keeps the rot at bay, but its light fades. Will you help rekindle it before the seventh stroke of dawn? There will be a hefty reward for a hero who can help.' The sprite waits, wings buzzing in nervous half-beats.",
+                    text: "Soft earth muffles your steps as you follow the silver-furred fox down the left-hand trail. Pale sparks pop from its tail with each bound, briefly illuminating runes carved into trunks you pass. After several twisting minutes, the fox slips into a moonlit glade ringed by towering red-cap mushrooms. At its center rises an ancient stone pedestal holding a luminous acorn that pulses like a slow heartbeat. With a shimmer, the fox stretches into the shape of a diminutive sprite—amber-eyed, cloaked in leaves. In a lilting voice it speaks: 'The Elderwood wilts. This Heartseed keeps the rot at bay, but its light fades. Will you help rekindle it before the seventh stroke of dawn? An evil mage is spreading the rot. If you can help, there will be a hefty reward for a hero who can help.' The sprite waits, wings buzzing in nervous half-beats.",
                     background: "fox_path.png",
                     choices: [
                         {
@@ -103,18 +103,18 @@ const gameData = {
                 },
                 
                 "scene5": {
-                    title: "The Cave Entrance",
-                    text: "[PLACEHOLDER] Description of the cave entrance scene.",
-                    background: "cave_entrance.png",
+                    title: "Accept the Quest",
+                    text: "Accepting the quest begins your journey to save the Elderwood. The sprite is unsure of where the evil mage hides, but it is said that he was last seen either in the dark cave or in the bank of the nearby lake. ",
+                    background: "lake_cave.png",
                     choices: [
                         {
                             id: "choice1",
-                            text: "Enter the cave.",
+                            text: "Enter the cave and search its depths for the mage.",
                             nextScene: "scene7"
                         },
                         {
                             id: "choice2",
-                            text: "Look for a way around.",
+                            text: "Make your way to the lake and see if you can find the mage there.",
                             nextScene: "scene6"
                         }
                     ]
